@@ -1,0 +1,26 @@
+[
+    {
+        "date": "2022 -- PRESENT",
+        "title": "Software Engineer",
+        "company": "Citi",
+        "location": "Tampa, FL",
+        "summary":  "I work on SpringBoot-based microservices that grant access to JFrog Artifactory Services. My responsibilities include enhancing application resilience through the implementation of monitoring and metrics. I also conduct Splunk analysis to monitor and optimize service performance.",
+        "skills": ["Kubernetes", "Java", "Springboot", "Jenkins", "JUnit", "UDeploy", "Splunk", "MySQL"]
+    },
+    {
+        "date": "2021 -- 2022-08",
+        "title": "Software Engineer",
+        "company": "JP Morgan",
+        "location": "Tampa, FL",
+        "summary":  "I led the creation of a Java SpringBoot micro-service ticketing system catering to diverse product delivery teams. I successfully introduced a Kafka event-driven architecture. Notably, I optimized Cassandra record cleanup by over 100% for a substantial dataset using multi-threading techniques. My proficiency in the Elasticsearch Java Client facilitated the execution of intricate nested aggregation queries. Furthermore, I efficiently managed docker container lifecycles through Kubernetes.",
+        "skills": ["Kubernetes", "Java", "Springboot", "Jenkins", "JUnit", "Splunk", "MySQL", "Cassandra"]
+    },
+    {
+        "date": "2018-08 - 2022-12",
+        "title": "Undergraduate Researcher",
+        "company": "Neuro Machine Interaction Lab",
+        "location": "Tampa, FL",
+        "summary":  "Hello",
+        "skills": ["C#", "Unity", "IBM Watson"]
+    }
+]
