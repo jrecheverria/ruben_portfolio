@@ -25,7 +25,7 @@ export default function Socials() {
     return (
         <div className="flex mt-40">
         {socials.map((social, index) => (
-            <div className="mr-4">
+            <div key={index} className="mr-4">
                 <a href={social.link} target="_blank">{social.icon}</a>
             </div>
         ))}

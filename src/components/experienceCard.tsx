@@ -3,8 +3,8 @@ import { useState } from "react";
 import JobHistory from "../data/JobHistory.json";
 
 export default function ExperienceCard() {
-    const [hoverIndex, setHoverIndex] = useState(null);
-    const handleMouseEnter = (index: Number) => {
+    const [hoverIndex, setHoverIndex] = useState<number | null>(null);
+    const handleMouseEnter = (index: number) => {
         setHoverIndex(index);
     }
     const handleMouseLeave = () => {
@@ -14,7 +14,7 @@ export default function ExperienceCard() {
     return (
             <>
             {JobHistory.map((job, index) => (
-                <div className="grid grid-cols-2 h-fit mb-10 cursor-pointer rounded-md hover:bg-gray-800  hover:backdrop-blur-xl p-4" 
+                <div key={index} className="grid grid-cols-2 h-fit mb-10 cursor-pointer rounded-md hover:bg-gray-800  hover:backdrop-blur-xl p-4" 
                 onMouseEnter={() => handleMouseEnter(index)}
                 onMouseLeave={() => handleMouseLeave()}>
 
@@ -32,7 +32,7 @@ export default function ExperienceCard() {
                         
                         <div className="flex flex-row overglow-hidden">
                             {job.skills.map((skill, index) => (
-                            <div className="flex"><p className="rounded-full text-xs bg-teal-950 backdrop-blur-xl text-teal-400 p-2 mr-2">{skill}</p></div>
+                            <div key={index} className="flex"><p className="rounded-full text-xs bg-teal-950 backdrop-blur-xl text-teal-400 p-2 mr-2">{skill}</p></div>
                             ))}
                         </div>
 
