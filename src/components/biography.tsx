@@ -1,11 +1,12 @@
 export default function Biography() {
     return (
-        <div className="flex flex-col w-6/12 pt-10">
-            <h1 className="font-ibm text-5xl font-bold">Ruben Echeverria</h1>
+        <div className="flex flex-col pt-10 w-11/12 sm:w-6/12">
+            <h1 className="font-ibm text-3xl sm:text-5xl font-bold">Ruben Echeverria</h1>
             <p className="font-ibm text-md font-light pt-9">
-            Hey 👋 Im Ruben Echeverria, a software engineer whos deeply passionate about all things coding.
-            This portfolio website serves as a platform to showcase my projects and share things Im currently journey. 
+            Hey 👋 Im Ruben Echeverria, a software engineer who is deeply passionate about all things coding.
+            This portfolio website serves as a platform to showcase my projects and share things Im currently learning. 
             </p>
+            
             <p className="font-ibm text-md font-light pt-5">Social Links:</p>
             <p className="font-ibm text-md font-light pt-5">Currently Learning / Reading:</p>
             <p className="font-ibm text-md font-light pt-5">Currently Listening To:</p>
