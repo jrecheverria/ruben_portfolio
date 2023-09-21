@@ -9,8 +9,8 @@ const config: Config = {
   ],
   theme: {
     colors: {
-      background: '#0f172a',
-
+      background: '#212737',
+      orange: colors.orange,
       transparent: 'transparent',
       current: 'currentColor',
       black: colors.black,
@@ -31,6 +31,9 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
+      fontFamily: {
+        ibm: ['IBM Plex Mono', 'monospace']
       },
     },
   },

@@ -1,24 +1,16 @@
 export default function Biography() {
     return (
-        <div className="mb-40">
-            <p className="text-md font-light text-slate-400 my-5">
-            Hey there! Im a software engineer with a story that kicked off during my high school days when 
-            I jumped into the robotics team. Thats when coding for robots opened the door to the mesmerizing 
-            world of computer science for me.
+        <div className="flex flex-col w-6/12 pt-10">
+            <h1 className="font-ibm text-5xl font-bold">Ruben Echeverria</h1>
+            <p className="font-ibm text-md font-light pt-9">
+            Hey 👋 Im Ruben Echeverria, a software engineer whos deeply passionate about all things coding.
+            This portfolio website serves as a platform to showcase my projects and share things Im currently journey. 
             </p>
-            <p className="text-md font-light text-slate-400">
-            Since then, Ive been on quite a ride. I tinkered with C# to create simulations at the University of South Floridas research lab. 
-            Then, I joined JP Morgans back end crew, working on a supercharged ticketing system.
-            </p>
-            <p className="text-md font-light text-slate-400 my-5">
-            Lately, Ive been all about DevOps at Citi, wrangling artifact storage like a champ. Curiosity keeps me going, and innovation keeps me hooked!
-            </p>
+            <p className="font-ibm text-md font-light pt-5">Social Links:</p>
+            <p className="font-ibm text-md font-light pt-5">Currently Learning / Reading:</p>
+            <p className="font-ibm text-md font-light pt-5">Currently Listening To:</p>
+            <p className="font-ibm text-md font-light pt-5">Actively Working On:</p>
+            <hr className="h-px my-8 bg-orange-600 border-0"></hr>
         </div>
     )
 }
-
-//  Since then, I've been on quite a ride. 
-// I tinkered with C# to create simulations at the University of South Florida's research lab. 
-// Then, I joined JP Morgan's back end crew, working on a supercharged ticketing system. Lately, 
-// I've been all about DevOps at Citi, wrangling artifact storage like a champ. 
-// Curiosity keeps me going, and innovation keeps me hooked!
